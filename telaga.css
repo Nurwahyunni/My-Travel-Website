@@ -1,0 +1,69 @@
+body {
+    height: 100%;    
+    background-color: lightblue;
+}
+
+a.nav-link {
+    color:skyblue;
+    font-size: 20px;
+}
+
+a.nav-link :hover {
+    color:lightblue;
+}
+
+#search {
+    border: 0;
+    border-radius: 30px;
+    height: 40px;
+}
+
+#total {
+    border: 0;
+    padding-right: 70px;
+    border-radius: 30px;
+    height: 40px;
+}
+
+#ats {
+    margin-left: 20px;
+}
+
+#dd{
+    margin-top: -40px;
+    margin-right: 18px;
+    float: right;
+}
+
+#destinasi{
+    margin-top: -40px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.card-deck .text-break{
+    text-align: justify;
+}
+
+#imgcard1{
+    height: 222px;
+}
+
+.modal img{
+    height: 300px;
+}
+
+p .modal-text{
+    text-align: justify;
+}
+
+
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .card-deck .card{
+        flex: inherit;
+        margin-bottom: 15px;
+    }
+}
+
+

@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    background-color: lightblue;
+}
+
+#navcol {
+    color: black;
+    font-size: 15px;
+}
+
+#navcol :hover {
+    color:white;
+}
+
+#search {
+    border: 0;
+    border-radius: 30px;
+}
+
+#contentbox {
+    background-color: turquoise;
+    padding-bottom: 10px;
+}
+
+#contentbox h1 {
+    margin-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#content p {
+    text-align: center;
+    padding: 0;
+}
